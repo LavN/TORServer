@@ -1,0 +1,1 @@
+c:\mongodb\bin\mongod.exe --dbpath c:\data\tor

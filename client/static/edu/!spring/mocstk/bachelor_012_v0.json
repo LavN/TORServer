@@ -1,0 +1,23 @@
+{
+"abb":"МОЦСТК",
+"name":"Микроволновые, оптические и цифровые средства ТК",
+"alias":"mocstk_012",
+"url":"/mocstk_012",
+"sgroup":"bachelor",
+"studyp":"012",
+"course":"4",
+"semestr":"8",
+"view_class":"light",
+"categories":{
+	"info":{
+		"alias":"info",
+		"name":"Информация",
+		"url":"/info",
+		"block":[{
+			"view":"ListBlock",
+			"header":"К сожалению информации по данной дисциплине нет.",
+			"object":[]
+			}]
+	}
+}
+}

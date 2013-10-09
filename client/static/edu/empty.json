@@ -1,0 +1,141 @@
+{
+"abb":"",
+"name":"",
+"alias":"",
+"url":"",
+"sgroup":"",
+"course":"",
+"categories":{
+	"news":{
+		"alias":"news",
+		"name":"Новости",
+		"url":"/news",
+		"block":[{
+			"view":"NewsBlock",
+			"object":{
+				"header":"",
+				"text":""
+				}
+			}]
+	},
+	"lecture":{
+		"alias":"lecture",
+		"name":"Лекции",
+		"url":"/lecture",
+		"block":[{
+			"view":"TextBlock",
+			"object":{
+				"header":"",
+				"text":""
+				}
+			},{
+			"view":"ListBlock",
+			"header":"Дополнительные материалы",
+			"object":[{
+				"view":"LightSource",
+				"object":{
+					"name":"",
+					"url":{
+			        	"doc":"/downloads/subject//filename.doc"
+						}
+					}
+				}]
+			}
+		]
+	},
+	"practice":{
+	"alias":"practice",
+	"name":"Практика",
+	"url":"/practice",
+	"block":[{
+		"view":"TextBlock",
+		"object":{
+			"header":"",
+			"text":""
+			}
+		},{
+		"view":"ListBlock",
+		"header":"Дополнительные материалы",
+		"object":[{
+			"view":"LightSource",
+			"object":{
+				"name":"",
+				"url":{
+			        	"doc":"/downloads/subject//filename.doc"
+						}
+				}
+			}]
+		}]
+	},
+	"labs":{
+		"alias":"labs",
+		"name":"Лабораторные работы",
+		"url":"/labs",
+		"block":[{
+			"view":"TextBlock",
+			"object":{
+				"header":"",
+				"text":""
+				}
+			},{
+			"view":"ListBlock",
+			"header":"Дополнительные материалы",
+			"object":[{
+				"view":"LightSource",
+				"object":{
+					"name":"",
+					"url":{
+			        	"doc":"/downloads/subject//filename.doc"
+						}
+					}
+				}]
+			}]
+	},
+	"coursework":{
+		"alias":"coursework",
+		"name":"Курсовая работа",
+		"url":"/coursework",
+		"block":[{
+			"view":"TextBlock",
+			"object":{
+				"header":"",
+				"text":""
+				}
+			},{
+			"view":"ListBlock",
+			"header":"Дополнительные материалы",
+			"object":[{
+				"view":"LightSource",
+				"object":{
+					"name":"",
+					"url":{
+			        	"doc":"/downloads/subject//filename.doc"
+						}
+					}
+				}]
+			}
+		]
+	},
+	"literature":{
+		"alias":"literature",
+		"name":"Литература",
+		"url":"/literature",
+		"block":[{
+			"view":"TextBlock",
+			"object":{
+				"header":"",
+				"text":""
+				}
+			},{
+			"view":"ListBlock",
+			"header":"",
+			"object":[{
+				"view":"LightSource",
+				"object":{
+					"name":""
+					}
+				}]
+			}]
+	}
+}
+}

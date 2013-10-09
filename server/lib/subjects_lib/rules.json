@@ -1,0 +1,88 @@
+{
+    name: "",
+    alias:"",
+    sform:"",
+    subjects: Model,
+    url: ""
+}
+
+
+{
+abb: "",
+name: "",
+alias:"",
+url:"",
+sgroup:{
+	bachelor:{
+		course:"",
+		collection:{
+			text: TextBlockCollection,
+			source: SourceCollection,
+			news: NewsCollection,
+		}
+		category:{
+			news:{
+				name:"Новости",
+				url:"/news",
+				block:[{ListBlockView}]
+			},
+			info:{
+				name:"Информация",
+				url:"/info",
+				block:[]
+			},
+			lecture:{
+				name:"Лекции",
+				url:"/lection",
+				block:[]
+			},
+			practice:{
+				name:"Практика",
+				url:"/practice",
+				block:[]
+			},
+			labs:{
+				name:"Лабраторные работы",
+				url:"/labs",
+				block:[]
+			},
+			coursework:{
+				name:"Курсовая работа",
+				url:"/coursework",
+				block:[]
+			},
+			literature:{
+				name:"Литература",
+				url:"/literature",
+				block:[
+					{ListBlockView:{
+						header:"Список основной литературы:";,
+						items:{
+						}
+					}},
+					{ListBlockView:{
+						header:"Список дополнительной литературы:";,
+						items:{
+						}
+					}},
+					{ListBlockView:{
+						header:"Список статей:";,
+						items:{
+						}
+					}},
+					{ListBlockView:{
+						header:"Список web-ресурсов:";,
+						items:{
+						}
+					}}
+				]
+			}
+		}
+	},
+	engineer:{
+	},
+	master:{
+	}
+	
+}
+}

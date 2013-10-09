@@ -1,0 +1,19 @@
+{
+"name":"Государственный экзамен",
+"alias":"gos",
+"url":"/gos",
+"sgroup":"bachelor",
+"type":"gos",
+"view_class":"light",
+"categories":{
+	"info":{
+		"alias":"",
+		"name":"",
+		"url":"/info",
+		"block":[{
+			"view":"",
+			"object":{}
+			}]
+	}
+}
+}

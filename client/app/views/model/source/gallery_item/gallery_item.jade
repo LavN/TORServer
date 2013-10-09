@@ -1,0 +1,10 @@
+.span4
+	.gallery-item-container
+		.gallery-item-shadow
+		.gallery-item-shadow-hover(hidden="true")
+		.gallery-item-pic
+			a.gallery-item(href!="<%= this.pic %>")
+				img(src!="<%= this.thumb %>")
+		img.gallery-item-icon(src="/static/img/icon_zoom.png", hidden="true")
+		
+			

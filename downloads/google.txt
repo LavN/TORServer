@@ -1,0 +1,1 @@
+{google:baseURL}search?q=%s&{google:RLZ}{google:acceptedSuggestion}{google:originalQueryForSuggestion}{google:searchFieldtrialParameter}sourceid=chrome&ie={inputEncoding}

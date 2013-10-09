@@ -1,0 +1,18 @@
+{
+	abb:"",
+	name:"Цифровая обработка сигналов",
+	alias:"cos",
+	url:"/cos",
+	course:{
+		bachelor:{
+			info:"",
+			lecture:"",
+			practice:"",
+			labs:"",
+			coursework:"",
+			literature:""
+		}
+	}
+	
+
+}

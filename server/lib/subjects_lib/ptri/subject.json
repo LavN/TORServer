@@ -1,0 +1,82 @@
+{
+	abb:"ПТРИ",
+	name:"Приборы и техника радиоизмерений",
+	alias:"ptri",
+	url:"/ptri",
+	sgroup:{
+		bachelor:{
+			news:{
+				name:"Новости",
+				url:"/news",
+				NewsBlockCollection:""
+				block:{
+					news:"",
+				}
+			},
+			lecture:{
+				name:"Лекции",
+				url:"/lection",
+				TextBlockCollection:"",
+				SourceCollection:"",
+				block:[
+					{text:model_id},
+					{text:model_id},
+					{list:{
+						SourceCollection:"",
+						header:"",
+						items:[
+							{FullSourceModelView:model_id},
+							{FullSourceModelView:model_id}
+						]}
+					}
+					]
+				}
+			},
+			labs:"",
+			literature:{
+				name:"Литература",
+				url:"/literature",
+				block:{
+					ListBlockView:{
+						header:"Список основной литературы:";,
+						items:{
+							FullSourceModelView:model_id
+							FullSourceModelView:model_id
+						}
+					},
+					ListBlockView:{
+						header:"Список дополнительной литературы:";,
+						items:{
+							FullSourceModelView:model_id
+							FullSourceModelView:model_id
+						}
+					},
+					ListBlockView:{
+						header:"Список статей:";,
+						items:{
+							FullSourceModelView:model_id
+							FullSourceModelView:model_id
+						}
+					},
+					ListBlockView:{
+						header:"Список web-ресурсов:";,
+						items:{
+							FullSourceModelView:model_id
+							FullSourceModelView:model_id
+						}
+					}
+				}
+			}
+		},
+		engineer:{
+			info:"",
+			lecture:"",
+			practice:"",
+			labs:"",
+			coursework:"",
+			literature:""
+		}
+	}
+	
+
+}

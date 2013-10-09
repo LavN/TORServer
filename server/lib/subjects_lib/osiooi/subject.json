@@ -1,0 +1,18 @@
+{
+	abb:"",
+	name:"Оптическая связь и оптическая обработка информации",
+	alias:"osiooi",
+	url:"/osiooi",
+	course:{
+		bachelor:{
+			info:"",
+			lecture:"",
+			practice:"",
+			labs:"",
+			coursework:"",
+			literature:""
+		}
+	}
+	
+
+}

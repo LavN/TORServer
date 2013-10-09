@@ -1,0 +1,23 @@
+{
+"abb":"ЦОС РТС",
+"name":"Цифровая обработка сигналов радиотехнических систем",
+"alias":"dsprts",
+"url":"/dsprts",
+"sgroup":"master",
+"course":"1",
+"studyp":"513",
+"semestr":"2",
+"view_class":"light",
+"categories":{
+	"info":{
+		"alias":"info",
+		"name":"Информация",
+		"url":"/info",
+		"block":[{
+			"view":"ListBlock",
+			"header":"К сожалению информации по данной дисциплине нет.",
+			"object":[]
+			}]
+	}
+}
+}

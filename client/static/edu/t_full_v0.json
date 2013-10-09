@@ -1,0 +1,297 @@
+{
+"abb":"АББ",
+"name":"Название дисциплины 91",
+"alias":"alias91",
+"url":"/alias91",
+"studyp":"000"
+"sgroup":"bachelor",
+"course":"2",
+"semestr":"4",
+"categories":{
+	"news":{
+		"alias":"news",
+		"name":"Новости",
+		"url":"/news",
+		"block":[{
+			"view":"NewsBlock",
+			"object":{
+				"header":"Новые материалы",
+				"text":"Добавлены обновления методических указаний к работе №1"
+				}
+			},{
+			"view":"NewsBlock",
+			"object":{
+				"header":"Новость2",
+				"text":"Поздравляем с началом учебного семестра!"
+				}
+			}]
+	},
+	"info":{
+	"alias":"info",
+	"name":"Информация",
+	"url":"/info",
+	"block":[{
+		"view":"TextBlock",
+		"object":{
+			"header":"",
+			"text":"Дисциплина входит в цикл \"Название цикла\" </br> кому читается курс "
+			}
+		},{
+		"view":"TextBlock",
+		"object":{
+			"header":"Цель данного курса",
+			"text":"текст"
+			}
+		},{
+		"view":"TextBlock",
+		"object":{
+			"header":"",
+			"text":"Какова успеваемость студентов. Рекоммендации"
+			}
+		},{
+		"view":"TextBlock",
+		"object":{
+			"header":"О чем курс",
+			"text":"учебная  программа"
+			}
+		},{
+		"view":"TextBlock",
+		"object":{
+			"header":"",
+			"text":"что полезного можно узнать"
+			}
+		}]
+	},
+	"lecture":{
+		"alias":"lecture",
+		"name":"Лекции",
+		"url":"/lecture",
+		"block":[{
+			"view":"TextBlock",
+			"object":{
+				"header":"Лекторы",
+				"text":"должность, Фамилия Имя Отчество </br> лекция: понедельник 1 15:20 ауд.2222 </br> должность, Фамилия Имя Отчество </br> лекция: среда 1 11:40 ауд.2222"
+				}
+			},{
+			"view":"TextBlock",
+			"object":{
+				"header":"Правила сдачи текущего контроля",
+				"text":"Рассказать о контрольных точках, сроках проверки результатов, порядке их предоставления студентам, об аппеляции и ликвидации задолженностей </br> Описать процедуру экзамена, порядок ликвидации задолженностей. "
+				}
+			},{
+			"view":"TextBlock",
+			"object":{
+				"header":"Расписание контрольных точек",
+				"text":"1-я контрольная работа: 25 октября 2013 </br> 2-я контрольная работа: 20 декабря 2013"
+				}
+			},{
+			"view":"TextBlock",
+			"object":{
+				"header":"Результаты контрольных точек",
+				"text":"текст"
+				}
+			},{
+			"view":"ListBlock",
+			"header":"Вопросы к контрольным точкам",
+			"object":[{
+				"view":"LightSource",
+				"object":{
+					"name":"Вопросы для к.т.№1",
+			    	"url":{
+			        	"doc":"/downloads/temp/lecture/filename.doc"
+						}
+					}
+				}]
+			},{
+			"view":"ListBlock",
+			"header":"Презентации к лекциям",
+			"object":[{
+				"view":"LightSource",
+				"object":{}
+				}]
+			},{
+			"view":"ListBlock",
+			"header":"Дополнительные материалы",
+			"object":[{
+				"view":"LightSource",
+				"object":{}
+				}]
+			}]
+	},
+		"practice":{
+		"alias":"practice",
+		"name":"Практика",
+		"url":"/practice",
+		"block":[{
+			"view":"TextBlock",
+			"object":{
+				"header":"Преподаватели",
+				"text":"группа должность Фамилия Имя Отчество </br> группа должность Фамилия Имя Отчество"
+				}
+			},{
+			"view":"TextBlock",
+			"object":{
+				"header":"Правила",
+				"text":"Что нужно получить в итоге, как влияет на допуск к экзамену. Сколько контрольных работ. Что представляет из себя контрольная работа. Когда и в каком виде будут объявлены результаты работ. Описать процедуру экзамена, порядок ликвидации задолженностей."
+				}
+			},{
+			"view":"TextBlock",
+			"object":{
+				"header":"Расписание контрольных точек",
+				"text":"1-я контрольная работа: 25 октября 2013 </br> 2-я контрольная работа: 20 декабря 2013"
+				}
+			},{
+			"view":"ListBlock",
+			"header":"Задачи для контрольных точек",
+			"object":[{
+				"view":"LightSource",
+				"object":{
+					"name":"Задачи для к.т.№1"
+					}
+				},{
+				"view":"LightSource",
+				"object":{
+					"name":"Задачи для к.т.№2"
+					}
+				}]
+			},{
+			"view":"ListBlock",
+			"header":"Дополнительные материалы",
+			"object":[{
+				"view":"LightSource",
+				"object":{
+					"name":"Задачник"
+					}
+				}]
+			}]
+	},
+	"labs":{
+		"alias":"labs",
+		"name":"Лабораторные работы",
+		"url":"/labs",
+		"block":[{
+			"view":"TextBlock",
+			"object":{
+				"header":"Лаборатория",
+				"text":"название аудитория фото"
+				}
+			},{
+			"view":"TextBlock",
+			"object":{
+				"header":"Порядок проведения занятий",
+				"text":"Что нужно получить в итоге, как влияет на допус к экзамену. Сколько работ, когда коллоквиум. Порядок ликвидации задолженностей"
+				}
+			},{
+			"view":"TextBlock",
+			"object":{
+				"header":"Требования к отчету",
+				"text":"Cроки предоставления. В отчете должны быть представлены:"
+				}
+			},{
+			"view":"ListBlock",
+			"header":"Описания лабораторных работ",
+			"object":[{
+				"view":"LightSource",
+				"object":{
+					"name":"lab1.doc"
+					}
+				}]
+			},{
+			"view":"ListBlock",
+			"header":"Дополнительные материалы",
+			"object":[{
+				"view":"LightSource",
+				"object":{
+					"name":"Диаграмма Смита"
+					}
+				}]
+			}]
+	},
+	"coursework":{
+		"alias":"coursework",
+		"name":"Курсовая работа",
+		"url":"/coursework",
+		"block":[{
+			"view":"TextBlock",
+			"object":{
+				"header":"Преподаватели",
+				"text":"группа должность ФИО"
+				}
+			},{
+			"view":"TextBlock",
+			"object":{
+				"header":"Порядок выполнения курсовой работы",
+				"text":"Что нужно получить в итоге, как влияет на допуск к экзамену. Что представляет из себя курсовая работа. Когда и в каком виде нужно сдать работу. Порядок ликвидации долгов"
+				}
+			},{
+			"view":"TextBlock",
+			"object":{
+				"header":"Основные даты",
+				"text":"выдачи задания, промежуточных точек, срок защиты"
+				}
+			},{
+			"view":"TextBlock",
+			"object":{
+				"header":"Требования к курсовому проекту",
+				"text":"текст"
+				}
+			},{
+			"view":"ListBlock",
+			"header":"Варианты заданий",
+			"object":[{
+				"view":"LightSource",
+				"object":{
+					"name":"lab1.doc"
+					}
+				}]
+			},{
+			"view":"ListBlock",
+			"header":"Дополнительные материалы",
+			"object":[{
+				"view":"LightSource",
+				"object":{
+					"name":"Титульный лист"
+					}
+				}]
+			}]
+	},
+	"literature":{
+		"alias":"literature",
+		"name":"Литература",
+		"url":"/literature",
+		"block":[{
+			"view":"ListBlock",
+			"header":"Список основной литературы:",
+			"object":[{
+				"view":"FullSource",
+				"object":{
+					"name":"Название источника1"
+					}
+				}]
+			},{
+			"view":"ListBlock",
+			"header":"Список дополнительной литературы:",
+			"object":[{
+				"view":"LightSource",
+				"object":{}
+				}]
+			},{
+			"view":"ListBlock",
+			"header":"Список статей:",
+			"object":[{
+				"view":"LightSource",
+				"object":{}
+				}]
+			},{
+			"view":"ListBlock",
+			"header":"Список web-ресурсов:",
+			"object":[{
+				"view":"LightSource",
+				"object":{}
+				}]
+			}
+		]
+	}
+	
+}
+}

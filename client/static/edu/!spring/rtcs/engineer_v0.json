@@ -1,0 +1,23 @@
+{
+"abb":"РТЦС",
+"name":"Радиотехнические цепи и сигналы",
+"alias":"rtcs1",
+"url":"/rtcs1",
+"sgroup":"engineer",
+"studyp":"812",
+"course":"3",
+"semestr":"5",
+"view_class":"light",
+"categories":{
+	"info":{
+		"alias":"info",
+		"name":"Информация",
+		"url":"/info",
+		"block":[{
+			"view":"ListBlock",
+			"header":"К сожалению информации по данной дисциплине нет.",
+			"object":[]
+			}]
+	}
+}
+}

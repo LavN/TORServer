@@ -1,0 +1,23 @@
+{
+"abb":"",
+"name":"",
+"alias":"",
+"url":"/",
+"sgroup":"master",
+"course":"",
+"studyp":"513",
+"semestr":"",
+"view_class":"light",
+"categories":{
+	"info":{
+		"alias":"info",
+		"name":"Информация",
+		"url":"/info",
+		"block":[{
+			"view":"ListBlock",
+			"header":"К сожалению информации по данной дисциплине нет.",
+			"object":[]
+			}]
+	}
+}
+}

@@ -1,0 +1,18 @@
+{
+	abb:"",
+	name:"",
+	alias:"",
+	url:"/",
+	course:{
+		bachelor:{
+			info:"",
+			lecture:"",
+			practice:"",
+			labs:"",
+			coursework:"",
+			literature:""
+		}
+	}
+	
+
+}

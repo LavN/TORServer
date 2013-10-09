@@ -1,0 +1,18 @@
+{
+	abb:"",
+	name:"Радиотехнические цепи и сигналы",
+	alias:"rtcs",
+	url:"/rtcs",
+	course:{
+		bachelor:{
+			info:"",
+			lecture:"",
+			practice:"",
+			labs:"",
+			coursework:"",
+			literature:""
+		}
+	}
+	
+
+}

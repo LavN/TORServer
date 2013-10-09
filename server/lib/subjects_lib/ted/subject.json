@@ -1,0 +1,18 @@
+{
+	abb:"",
+	name:"Техническая электродинамика",
+	alias:"ted",
+	url:"/ted",
+	course:{
+		bachelor:{
+			info:"",
+			lecture:"",
+			practice:"",
+			labs:"",
+			coursework:"",
+			literature:""
+		}
+	}
+	
+
+}

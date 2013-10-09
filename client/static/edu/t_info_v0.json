@@ -1,0 +1,54 @@
+{
+"abb":"",
+"name":"",
+"alias":"",
+"url":"/",
+"sgroup":"bachelor",
+"course":"",
+"view_class":"light",
+"categories":{
+	"info":{
+		"alias":"info",
+		"name":"Информация",
+		"url":"/info",
+		"block":[{
+			"view":"ListBlock",
+			"header":"Учебная программа",
+			"object":[{
+				"view":"LightSource",
+				"object":{
+					"name":"Название ресурса"
+					
+					}
+				}]
+			},{
+			"view":"ListBlock",
+			"header":"Экзаменационные вопросы",
+			"object":[{
+				"view":"LightSource",
+				"object":{
+					"name":"Название ресурса"
+					}
+				}]
+			},{
+			"view":"ListBlock",
+			"header":"Методические указания к выполнению лабораторных работ",
+			"object":[{
+				"view":"LightSource",
+				"object":{
+					"name":"Название ресурса"
+					}
+				}]
+			},{
+			"view":"ListBlock",
+			"header":"Презентации к лекциям",
+			"object":[{
+				"view":"LightSource",
+				"object":{
+					"name":"Название ресурса"
+					}
+				}]
+			}]
+	}
+}
+}

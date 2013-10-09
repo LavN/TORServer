@@ -1,0 +1,23 @@
+{
+"abb":"ЦС",
+"name":"Цифровая связь",
+"alias":"digicom",
+"url":"/digicom",
+"sgroup":"bachelor",
+"course":"4",
+"studyp":"114",
+"semestr":"8",
+"view_class":"light",
+"categories":{
+	"info":{
+		"alias":"info",
+		"name":"Информация",
+		"url":"/info",
+		"block":[{
+			"view":"ListBlock",
+			"header":"К сожалению информации по данной дисциплине нет.",
+			"object":[]
+			}]
+	}
+}
+}

@@ -1,0 +1,18 @@
+{
+	abb:"",
+	name:"Основы автоматизированного проектирования антенно-фидерных устройств",
+	alias:"oapafu",
+	url:"/oapafu",
+	course:{
+		bachelor:{
+			info:"",
+			lecture:"",
+			practice:"",
+			labs:"",
+			coursework:"",
+			literature:""
+		}
+	}
+	
+
+}

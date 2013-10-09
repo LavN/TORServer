@@ -1,0 +1,18 @@
+{
+	abb:"",
+	name:"Основы метрологии и радиоизмерений",
+	alias:"omri",
+	url:"/omri",
+	course:{
+		bachelor:{
+			info:"",
+			lecture:"",
+			practice:"",
+			labs:"",
+			coursework:"",
+			literature:""
+		}
+	}
+	
+
+}

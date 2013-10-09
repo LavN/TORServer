@@ -1,0 +1,18 @@
+{
+	abb:"",
+	name:"Измерения в технике СВЧ",
+	alias:"itsv4",
+	url:"/itsv4",
+	course:{
+		bachelor:{
+			info:"",
+			lecture:"",
+			practice:"",
+			labs:"",
+			coursework:"",
+			literature:""
+		}
+	}
+	
+
+}

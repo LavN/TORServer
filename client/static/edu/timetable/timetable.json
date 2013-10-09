@@ -1,0 +1,30 @@
+{
+"abb":"Расписание",
+"name":"Расписание",
+"alias":"timetable",
+"url":"/timetable",
+"course":"",
+"semestr":"",
+"view_class":"light",
+"categories":{
+	"info":{
+		"alias":"info",
+		"name":"Информация",
+		"url":"/info",
+		"block":[{
+			"view":"TableBlock",
+			"object":{
+				"header":"Расписание на осенний семестр 2013-2014 учебного года",
+				"html_src":"/static/tabs/timetable/rasp_13a.html",
+				"src":"/downloads/doc/timetable/rasp_13a.doc"
+				}
+			},{
+			"view":"TextBlock",
+			"object":{
+				"header":"",
+				"text":""
+				}
+			}]
+	}
+}
+}

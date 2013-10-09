@@ -1,0 +1,18 @@
+{
+	abb:"",
+	name:"Антенны и распространение радиоволн",
+	alias:"arr",
+	url:"/arr",
+	course:{
+		bachelor:{
+			info:"",
+			lecture:"",
+			practice:"",
+			labs:"",
+			coursework:"",
+			literature:""
+		}
+	}
+	
+
+}

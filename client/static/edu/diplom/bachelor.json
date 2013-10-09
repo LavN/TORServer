@@ -1,0 +1,19 @@
+{
+"name":"Выпускная квалификационная работа ",
+"alias":"diplom",
+"url":"/diplom",
+"sgroup":"bachelor",
+"type":"diplom",
+"view_class":"light",
+"categories":{
+	"info":{
+		"alias":"",
+		"name":"",
+		"url":"/info",
+		"block":[{
+			"view":"",
+			"object":{}
+			}]
+	}
+}
+}

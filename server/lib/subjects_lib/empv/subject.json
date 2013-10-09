@@ -1,0 +1,18 @@
+{
+	abb:"",
+	name:"Электромагнитные поля и волны",
+	alias:"empv",
+	url:"/empv",
+	course:{
+		bachelor:{
+			info:"",
+			lecture:"",
+			practice:"",
+			labs:"",
+			coursework:"",
+			literature:""
+		}
+	}
+	
+
+}

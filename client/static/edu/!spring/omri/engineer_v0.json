@@ -1,0 +1,23 @@
+{
+"abb":"ОМРИ",
+"name":"Основы метрологии и радиоизмерений",
+"alias":"omri",
+"url":"/omri",
+"sgroup":"engineer",
+"course":"2",
+"studyp":"812",
+"semestr":"4",
+"view_class":"light",
+"categories":{
+	"info":{
+		"alias":"info",
+		"name":"Информация",
+		"url":"/info",
+		"block":[{
+			"view":"ListBlock",
+			"header":"К сожалению информации по данной дисциплине нет.",
+			"object":[]
+			}]
+	}
+}
+}

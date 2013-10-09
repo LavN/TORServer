@@ -1,0 +1,23 @@
+{
+"abb":"АРРВ",
+"name":"Антенны и распространение радиоволн",
+"alias":"airrv_012",
+"url":"/airrv_012",
+"sgroup":"bachelor",
+"course":"4",
+"studyp":"012",
+"semestr":"8",
+"view_class":"light",
+"categories":{
+	"info":{
+		"alias":"info",
+		"name":"Информация",
+		"url":"/info",
+		"block":[{
+			"view":"ListBlock",
+			"header":"К сожалению информации по данной дисциплине нет.",
+			"object":[]
+			}]
+	}
+}
+}

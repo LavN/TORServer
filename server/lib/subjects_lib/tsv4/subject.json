@@ -1,0 +1,18 @@
+{
+	abb:"",
+	name:"Техника сверхвысоких частот",
+	alias:"tsv4",
+	url:"/tsv4",
+	course:{
+		bachelor:{
+			info:"",
+			lecture:"",
+			practice:"",
+			labs:"",
+			coursework:"",
+			literature:""
+		}
+	}
+	
+
+}

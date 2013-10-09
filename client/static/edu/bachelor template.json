@@ -1,0 +1,57 @@
+{
+"abb":"",
+"name":"",
+"alias":"",
+"url":"/",
+"sgroup":"bachelor",
+"course":"",
+"studyp":"",
+"semestr":"",
+"view_class":"light",
+"categories":{
+	"info":{
+		"alias":"info",
+		"name":"Информация",
+		"url":"/info",
+		"block":[{
+			"view":"ListBlock",
+			"header":"К сожалению информации по данной дисциплине нет.",
+			"object":[]
+			}]
+	},
+	"literature":{
+		"alias":"literature",
+		"name":"Литература",
+		"url":"/literature",
+		"block":[{
+			"view":"ListBlock",
+			"header":"Список основной литературы:",
+			"object":[{
+				"view":"LightSource",
+				"object":{
+					"name":""
+					}
+				},{
+				"view":"LightSource",
+				"object":{
+					"name":""
+					}
+				}]
+			},{
+			"view":"ListBlock",
+			"header":"Список дополнительной литературы:",
+			"object":[{
+				"view":"LightSource",
+				"object":{
+					"name":""
+					}
+				},{
+				"view":"LightSource",
+				"object":{
+					"name":""
+					}
+				}]
+			}]
+	}
+}
+}

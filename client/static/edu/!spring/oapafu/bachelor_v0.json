@@ -1,0 +1,23 @@
+{
+"abb":"ОАПАФУ",
+"name":"Основы автоматизированного проектирования антенно-фидерных устройств",
+"alias":"oapafu",
+"url":"/oapafu",
+"sgroup":"bachelor",
+"course":"4",
+"studyp":"114",
+"semestr":"7",
+"view_class":"light",
+"categories":{
+	"info":{
+		"alias":"info",
+		"name":"Информация",
+		"url":"/info",
+		"block":[{
+			"view":"ListBlock",
+			"header":"К сожалению информации по данной дисциплине нет.",
+			"object":[]
+			}]
+	}
+}
+}
