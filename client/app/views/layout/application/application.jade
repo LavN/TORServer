@@ -5,7 +5,7 @@
 	.container
 		.row
 			.span12
-				a(data-route="/home")
+				a(target="blank",href="http://www.eltech.ru/ru/fakultety/fakultet-radiotehniki-i-telekommunikaciy/sostav-fakulteta/kafedra-teoreticheskih-osnov-radiotehniki")
 					#logo
 						img(src="/static/img/logo-TOR.png")
 				#header_tor Кафедра Теоретических Основ Радиотехники
@@ -25,6 +25,20 @@
 #footer
 	.container
 		.row
-			.span1.offset9#rights
+			.span4
+				p
+					a(target="blank",href="http://www.eltech.ru/ru/fakultety/fakultet-radiotehniki-i-telekommunikaciy/sostav-fakulteta/kafedra-teoreticheskih-osnov-radiotehniki/rukovodstvo-sostav-kafedry") Руководство, состав кафедры
+				p
+					a(target="blank",href="http://www.eltech.ru/ru/fakultety/fakultet-radiotehniki-i-telekommunikaciy/sostav-fakulteta/kafedra-teoreticheskih-osnov-radiotehniki/uchebno-metodicheskayarabota") Учебно-методическая работа
+				p
+					a(target="blank",href="http://www.eltech.ru/ru/fakultety/fakultet-radiotehniki-i-telekommunikaciy/sostav-fakulteta/kafedra-teoreticheskih-osnov-radiotehniki/istoriya-kafedry") История кафедры
+			.span4
+				p
+					a(target="blank",href="http://www.eltech.ru/ru/fakultety/fakultet-radiotehniki-i-telekommunikaciy/sostav-fakulteta/kafedra-teoreticheskih-osnov-radiotehniki/nauchno-issledovatelskaya-rabota") Научно-исследовательская работа
+				p
+					a(target="blank",href="http://www.eltech.ru/ru/fakultety/fakultet-radiotehniki-i-telekommunikaciy/sostav-fakulteta/kafedra-teoreticheskih-osnov-radiotehniki/pechatnye-trudy") Печатные труды
+				p
+					a(target="blank",href="http://www.eltech.ru/ru/fakultety/fakultet-radiotehniki-i-telekommunikaciy/sostav-fakulteta/kafedra-teoreticheskih-osnov-radiotehniki/fotogalerei") Фотогалерея
+			.span4#rights
 				span СПбГЭТУ&nbsp
 				= (new Date()).getFullYear() +"."

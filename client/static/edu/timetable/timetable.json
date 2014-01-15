@@ -14,8 +14,17 @@
 		"block":[{
 			"view":"TableBlock",
 			"object":{
+				"style":"timetable-session",
+				"header":"Расписание консультаций и экзаменов зимней сессии",
+				"html":"",
+				"src":"/downloads/doc/timetable/rasp_13ae.doc"
+				}
+			},{
+			"view":"TableBlock",
+			"object":{
 				"header":"Расписание на осенний семестр 2013-2014 учебного года",
 				"html_src":"/static/tabs/timetable/rasp_13a.html",
+				"html":"",
 				"src":"/downloads/doc/timetable/rasp_13a.doc"
 				}
 			},{
