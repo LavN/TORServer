@@ -15,17 +15,17 @@
 			"view":"TableBlock",
 			"object":{
 				"style":"timetable-session",
-				"header":"Расписание консультаций и экзаменов зимней сессии",
+				"header":"Расписание дней повышения качества",
 				"html":"",
-				"src":"/downloads/doc/timetable/rasp_13ae.doc"
+				"src":"/downloads/doc/timetable/rasp_13aek.doc"
 				}
 			},{
 			"view":"TableBlock",
 			"object":{
-				"header":"Расписание на осенний семестр 2013-2014 учебного года",
-				"html_src":"/static/tabs/timetable/rasp_13a.html",
+				"style":"timetable-session",
+				"header":"Расписание зимней дополнительной сессии",
 				"html":"",
-				"src":"/downloads/doc/timetable/rasp_13a.doc"
+				"src":"/downloads/doc/timetable/rasp_13aed.doc"
 				}
 			},{
 			"view":"TextBlock",

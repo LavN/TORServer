@@ -1,12 +1,12 @@
 {
-"abb":"РТЦС",
-"name":"Радиотехнические цепи и сигналы (II часть)",
-"alias":"rtcs2",
-"url":"/rtcs2",
+"abb":"ОМРИ",
+"name":"Основы метрологии и радиоизмерений",
+"alias":"omri",
+"url":"/omri",
 "sgroup":"engineer",
+"course":"2",
 "studyp":"812",
-"course":"3",
-"semestr":"6",
+"semestr":"4",
 "view_class":"light",
 "categories":{
 	"info":{
