@@ -15,23 +15,9 @@
 			"view":"TableBlock",
 			"object":{
 				"style":"timetable-session",
-				"header":"Расписание дней повышения качества",
+				"header":"Расписание весеннего семестра",
 				"html":"",
-				"src":"/downloads/doc/timetable/rasp_13aek.doc"
-				}
-			},{
-			"view":"TableBlock",
-			"object":{
-				"style":"timetable-session",
-				"header":"Расписание зимней дополнительной сессии",
-				"html":"",
-				"src":"/downloads/doc/timetable/rasp_13aed.doc"
-				}
-			},{
-			"view":"TextBlock",
-			"object":{
-				"header":"",
-				"text":""
+				"src":"/downloads/doc/timetable/rasp_14s.doc"
 				}
 			}]
 	}

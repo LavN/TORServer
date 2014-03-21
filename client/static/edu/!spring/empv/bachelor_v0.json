@@ -41,7 +41,7 @@
 			"view":"TextBlock",
 			"object":{
 				"header":"Лекторы",
-				"text":"Доцент Алексеев Вадим Сергеевич.</br>Старший преподаватель Грачев Сергей Владиславович."
+				"text":"Доцент Алексеев Вадим Сергеевич."
 				}
 			},{
 			"view":"TextBlock",
@@ -89,7 +89,7 @@
 			"view":"TextBlock",
 			"object":{
 				"header":"",
-				"text":"Дисплейный класс - аудитория ....."
+				"text":""
 				}
 			},{
 			"view":"TextBlock",
@@ -119,6 +119,30 @@
 			"view":"ListBlock",
 			"header":"Дополнительные материалы",
 			"object":[{
+				"view":"LightSource",
+				"object":{
+					"name":"1. Моделирование электростатического поля двухпроводной линии",
+					"url":{
+			        	"doc":"/downloads/doc/edu/empv/Model_2X_Line.doc"
+						}
+					}
+				},{
+				"view":"LightSource",
+				"object":{
+					"name":"2. Поляризация и интерференция электромагнитных волн",
+					"url":{
+			        	"doc":"/downloads/doc/edu/empv/Polar.avd Interfer.doc"
+						}
+					}
+				},{
+				"view":"LightSource",
+				"object":{
+					"name":"3. Падение плоской электромагнитной волны на границу раздела двух сред",
+					"url":{
+			        	"doc":"/downloads/doc/edu/empv/Лаб_3_Отражение_преломление.doc"
+						}
+					}
+				},{ 
 				"view":"LightSource",
 				"object":{
 					"name":"4. Ионосферное распространение декаметровых волн",

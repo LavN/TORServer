@@ -74,9 +74,17 @@
 			"object":[{
 				"view":"LightSource",
 				"object":{
-					"name":"Список экзаменационных вопросов ",
+					"name":"Список экзаменационных вопросов (лектор С.А.Баруздин)",
 					"url":{
-        				"doc":"/downloads/doc/edu/omri/ОМРИ_вопросы.doc"
+        				"doc":"/downloads/doc/edu/omri/Вопросы ОМРИ Баруздин.doc"
+        				}
+					}
+				},{
+				"view":"LightSource",
+				"object":{
+					"name":"Список экзаменационных вопросов (лектор А.А.Данилин)",
+					"url":{
+        				"doc":"/downloads/doc/edu/omri/Вопросы ОМРИ Данилин.doc"
         				}
 					}
 				}]

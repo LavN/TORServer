@@ -26,19 +26,19 @@ window.PageSgroupModelView = ModelView.extend({
   		var pr = subject_collection.where({"sgroup":al, "type":"practice"});
   		var i=0;
   		for(i=0;i<pr.length;i++){
-  			var v = new Option_refActionView({name:pr[i].get("name"),url:"/"+pr[i].get("sgroup")+pr[i].get("url")});
+  			var v = new Option_refActionView({name:pr[i].get("name"),url:"/edu/"+pr[i].get("sgroup")+pr[i].get("url")});
   			_.$('#practice').append(v.$el);
   		}
   		var d = subject_collection.where({"sgroup":al, "type":"diplom"});
   		var i=0;
   		for(i=0;i<d.length;i++){
-  			var v = new Option_refActionView({name:d[i].get("name"),url:"/"+d[i].get("sgroup")+d[i].get("url")});
+  			var v = new Option_refActionView({name:d[i].get("name"),url:"/edu/"+d[i].get("sgroup")+d[i].get("url")});
   			_.$('#diplom').append(v.$el);
   		}
   		var d = subject_collection.where({"sgroup":al, "type":"gos"});
   		var i=0;
   		for(i=0;i<d.length;i++){
-  			var v = new Option_refActionView({name:d[i].get("name"),url:"/"+d[i].get("sgroup")+d[i].get("url")});
+  			var v = new Option_refActionView({name:d[i].get("name"),url:"/edu/"+d[i].get("sgroup")+d[i].get("url")});
   			_.$('#gos').append(v.$el);
   		}
   		var d = subject_collection.where({"sgroup":al, "type":"olymp"})[0];
