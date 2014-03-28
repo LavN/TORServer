@@ -86,6 +86,7 @@ a.olymp_sgroupref:hover{
   color: #555;
   font-size: 27px;
   font-weight:100;
-  
-  
+}
+ul.second li{
+	margin-left: 40px;
 }
