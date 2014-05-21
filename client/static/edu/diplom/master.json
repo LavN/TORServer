@@ -1,0 +1,80 @@
+{
+"name":"Магистерская диссертация",
+"alias":"diplom",
+"url":"/diplom",
+"sgroup":"master",
+"type":"diplom",
+"view_class":"light",
+"categories":{
+	"info":{
+		"alias":"",
+		"name":"",
+		"url":"/info",
+		"block":[{
+			"view":"ListBlock",
+			"header":"Основные материалы",
+			"object":[{
+				"view":"LightSource",
+				"object":{
+					"name":"Методические указания по выполнению, оформлению и подготовке к защите ВКР.",
+					"url":{
+			        	"doc":"/downloads/doc/edu/diplom/МУ_ ВКР_итог_24.03.14.doc"
+						}
+					}
+				},{
+				"view":"LightSource",
+				"object":{
+					"name":"Титульный лист",
+					"url":{
+			        	"doc":"/downloads/doc/edu/diplom/4_Титульный лист_магистры_2014.doc"
+						}
+					}
+				},{
+				"view":"LightSource",
+				"object":{
+					"name":"Задание на ВКР",
+					"url":{
+			        	"doc":"/downloads/doc/edu/diplom/5_Бланк задания_магистры_2014.doc"
+						}
+					}
+				},{
+				"view":"LightSource",
+				"object":{
+					"name":"Календарный план",
+					"url":{
+			        	"doc":"/downloads/doc/edu/diplom/1_Календарный план_2014.doc"
+						}
+					}
+				},{
+				"view":"LightSource",
+				"object":{
+					"name":"ГОСТ для оформления",
+					"url":{
+			        	"pdf":"/downloads/doc/edu/diplom/гост.pdf"
+						}
+					}
+				}]
+			},{
+			"view":"ListBlock",
+			"header":"Дополнительные материалы",
+			"object":[{
+				"view":"LightSource",
+				"object":{
+					"name":"ФРТ: Рекомендации по содержанию ВКР",
+					"url":{
+			        	"doc":"/downloads/doc/edu/diplom/Методические рекомендации ФРТ 2003.doc"
+						}
+					}
+				},{
+				"view":"LightSource",
+				"object":{
+					"name":"Каф.ТОР: Рекомендации по оформлению ВКР (согласно ГОСТу)",
+					"url":{
+			        	"doc":"/downloads/doc/edu/diplom/Оформление пояснительной записки.doc"
+						}
+					}
+				}]
+			}]
+	}
+}
+}
