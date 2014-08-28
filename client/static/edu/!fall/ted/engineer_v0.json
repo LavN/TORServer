@@ -1,0 +1,15 @@
+{
+"abb":"ТЭД",
+"name":"Техническая электродинамика",
+"alias":"ted",
+"url":"/ted",
+"sgroup":"engineer",
+"course":"3",
+"studyp":"812",
+"semestr":"5",
+"view_class":"full",
+"reference":{
+	"sgroup":"bachelor",
+	"alias":"ted"
+}
+}

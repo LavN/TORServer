@@ -1,0 +1,14 @@
+{
+	"abb":"ЦОС",
+	"name":"Цифровая обработка сигналов",
+	"alias":"dsp",
+	"url":"/dsp",
+	"sgroup":"engineer",
+	"studyp":"812",
+	"course":"4",
+	"semestr":"7",
+	"reference":{
+		"sgroup":"bachelor",
+		"alias":"dsp"
+	}
+}

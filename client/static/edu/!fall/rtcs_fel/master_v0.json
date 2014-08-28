@@ -1,8 +1,8 @@
 {
 "abb":"РТЦС",
-"name":"Радиотехнические цепи и сигналы(для студентов ФЭЛ)",
-"alias":"rtcs_fel",
-"url":"/rtcs_fel",
+"name":"Радиотехнические цепи и сигналы (для студентов ФЭЛ)",
+"alias":"rtcs",
+"url":"/rtcs",
 "sgroup":"master",
 "studyp":"114",
 "course":"1",
@@ -69,7 +69,7 @@
 				"object":{
 					"name":"Экзаменационные вопросы",
 					"url":{
-			        	"doc":"/downloads/doc/edu/rtcs_fel/РТЦС_экз_вопросы.doc"
+			        	"doc":"/downloads/doc/edu/rtcs/РТЦС_экз_вопросы.doc"
 						}
 					}
 				}]
@@ -100,7 +100,7 @@
 				"object":{
 					"name":"Программа практических занятий",
 			    	"url":{
-			        	"doc":"/downloads/doc/edu/rtcs_fel/программа практики.doc"
+			        	"doc":"/downloads/doc/edu/rtcs/программа практики.doc"
 						}
 					}
 				}]

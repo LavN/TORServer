@@ -5,7 +5,7 @@ window.PageSgroupModelView = ModelView.extend({
   		var al= this.model.get("alias");
   		function render(crs){
   			var s = subject_collection.where({"sgroup":al, "course":crs});
-  			if(crs == "4") s = subject_collection.where({"sgroup":al, "course":crs, "studyp":"012"});
+  			// if(crs == "4") s = subject_collection.where({"sgroup":al, "course":crs, "studyp":"012"});
   			if(!s.length){_.$('#crs'+crs).hide(); return;}
   			var i=0;
 	  		for(i=0;i<s.length;i++){

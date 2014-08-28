@@ -1,0 +1,15 @@
+{
+"abb":"АиРРВ",
+"name":"Антенны и распространение радиоволн",
+"alias":"airrv",
+"url":"/airrv",
+"sgroup":"engineer",
+"course":"4",
+"studyp":"812",
+"semestr":"8",
+"view_class":"full",
+"reference":{
+	"alias":"airrv",
+	"sgroup":"bachelor"
+}
+}

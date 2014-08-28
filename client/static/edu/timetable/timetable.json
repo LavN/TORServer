@@ -15,9 +15,9 @@
 			"view":"TableBlock",
 			"object":{
 				"style":"timetable-dopsa",
-				"header":"Расписание расписание дополнительной сессии",
+				"header":"Расписание расписание зачетной недели",
 				"html":"",
-				"src":"/downloads/doc/timetable/пересдачи.doc"
+				"src":"/downloads/doc/timetable/зачетная.doc"
 				}
 			},{
 			"view":"TableBlock",
@@ -26,14 +26,6 @@
 				"header":"Расписание консультаций и экзаменов",
 				"html":"",
 				"src":"/downloads/doc/timetable/экзамены.doc"
-				}
-			},{
-			"view":"TableBlock",
-			"object":{
-				"style":"timetable-semestr",
-				"header":"Расписание весеннего семестра",
-				"html":"",
-				"src":"/downloads/doc/timetable/rasp_14s.doc"
 				}
 			}]
 	}

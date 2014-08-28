@@ -1,0 +1,14 @@
+{
+	"abb":"ПТРИ",
+	"name":"Приборы и техника радиоизмерений",
+	"alias":"ptri",
+	"url":"/ptri",
+	"sgroup":"engineer",
+	"studyp":"812",
+	"course":"4",
+	"semestr":"7",
+	"reference":{
+		"sgroup":"bachelor",
+		"alias":"ptri"
+	}
+}

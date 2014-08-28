@@ -1,0 +1,15 @@
+{
+"abb":"РТЦиС",
+"name":"Радиотехнические цепи и сигналы",
+"alias":"rtcs",
+"url":"/rtcs",
+"sgroup":"engineer",
+"course":"3",
+"studyp":"812",
+"semestr":"5",
+"view_class":"full",
+"reference":{
+	"sgroup":"bachelor",
+	"alias":"rtcs"
+}
+}

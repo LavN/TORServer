@@ -42,6 +42,10 @@ window.Router = Backbone.Router.extend({
     "edu/:group/:sbj": function(group,sbj){
     	$('.nav_tab').removeClass("selected");
     	var subject = subject_collection.where({alias:sbj, sgroup:group})[0];
+    	var rfr = subject.get("reference");
+    	if(rfr){
+    		subject = subject_collection.where({alias:rfr.alias, sgroup:rfr.sgroup})[0];
+    	}
     	if(!subject){app_layout.show("404_page"); return;}
     	var bc = new BreadcrumbActionView({g:{url:"/edu/"+group,text: sgroup.where({alias:group})[0].get("name")}});
     	if(subject.get("view_class")=="light"){
