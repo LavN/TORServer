@@ -1,0 +1,5 @@
+.accordion-heading
+	a.accordion-toggle(data-toggle="collapse", href!="#"+"<%= this.alias %>") 
+		.head-text <%=this.header%>
+.accordion-body.collapse(id!="<%= this.alias %>")
+	.accordion-inner

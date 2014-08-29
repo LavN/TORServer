@@ -14,18 +14,53 @@
 		"block":[{
 			"view":"TableBlock",
 			"object":{
-				"style":"timetable-dopsa",
-				"header":"Расписание расписание зачетной недели",
+				"alias":"ext",
+				"flag": false,
+				"style":"time-ext",
+				"header":"Дополнительные пересдачи",
 				"html":"",
-				"src":"/downloads/doc/timetable/зачетная.doc"
+				"src":"/downloads/doc/timetable/ext.doc"
 				}
 			},{
 			"view":"TableBlock",
 			"object":{
-				"style":"timetable-session",
-				"header":"Расписание консультаций и экзаменов",
+				"alias":"rasp",
+				"flag": true,
+				"style":"time-rasp",
+				"header":"Осенний семестр",
 				"html":"",
-				"src":"/downloads/doc/timetable/экзамены.doc"
+				"src":"/downloads/doc/timetable/rasp.doc",
+				"hide":"true"
+				}
+			},{
+			"view":"TableBlock",
+			"object":{
+				"alias":"test",
+				"flag": false,
+				"style":"time-test",
+				"header":"Зачетная неделя",
+				"html":"",
+				"src":"/downloads/doc/timetable/test.doc"
+				}
+			},{
+			"view":"TableBlock",
+			"object":{
+				"alias":"exam",
+				"flag": false,
+				"style":"time-exam",
+				"header":"Консультации и экзамены",
+				"html":"",
+				"src":"/downloads/doc/timetable/exam.doc"
+				}
+			},{
+			"view":"TableBlock",
+			"object":{
+				"alias":"dops",
+				"flag": false,
+				"style":"time-dops",
+				"header":"Дополнительная сессия",
+				"html":"",
+				"src":"/downloads/doc/timetable/dops.doc"
 				}
 			}]
 	}

@@ -1,9 +1,11 @@
 window.TableBlockModel = Model.extend {
   urlRoot: "/tor/table",
   defaults: {
+      "alias":"",
       "header":"Заголовок таблицы",
-      "html_src":"",
-      "src":""
+      "html":"",
+      "src":"",
+      "style":""
   }
 }
 

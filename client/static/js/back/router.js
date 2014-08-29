@@ -104,7 +104,8 @@ window.Router = Backbone.Router.extend({
         app_layout.show("404_page");
         var subject = subject_collection.where({alias:"timetable"})[0];
     	if(!subject){app_layout.show("404_page"); return;}
-    	var cv = new BlockActionView({block:subject.get("categories")["info"].block});
+    	// var cv = new BlockActionView({block:subject.get("categories")["info"].block});
+    	var cv = new TimetableSubjectModelView(subject);
 		app_layout.layouts["light_subject_page"].update({subject_body:cv})
 		app_layout.layouts["light_subject_page"].$("#body_header").text(subject.get("name"))
     	app_layout.show("light_subject_page");
