@@ -110,9 +110,9 @@
 			"object":[{
 				"view":"LightSource",
 				"object":{
-					"name":"Методические указания к выполнению лабораторных работ",
+					"name":"Лабораторный практикум ООИ",
 					"url":{
-			        	"doc":"/downloads/doc/edu/ooi/ЛАБ_ОСиОИ.doc"
+			        	"doc":"/downloads/doc/edu/ooi/УП ООИ 2014.doc"
 						}
 					}
 				}]

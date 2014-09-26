@@ -11,6 +11,34 @@ if ('function' != typeof String.prototype.endsWith){
 }
 
 window.data_loaded = function(){
+	
+	// window.text_collection.forEach(function(model){
+// 		
+		// if(model.get("header") == ""){
+			// var txt = model.get("text");
+			// if(txt.indexOf("бакалавров") != -1){
+				// // console.log(txt);
+				// txt = txt.replace("210400", "11.03.01");
+				// txt = txt.replace("211000", "11.03.03");
+				// txt = txt.replace("210700", "11.03.02");
+				// // console.log(">>> "+ txt);
+			// }
+			// if(txt.indexOf("специалистов") != -1){
+				// txt = txt.replace("210601.65", "11.05.01");
+			// }
+			// if(txt.indexOf("магистров") != -1){
+				// txt = txt.replace("210400.68", "11.04.01");
+				// txt = txt.replace("210453.68", "11.04.01-53");
+				// txt = txt.replace("21453.68", "11.04.01-53");
+				// // console.log(txt);
+			// }
+			// model.set("text", txt)
+			// model.save();
+		// }
+	// });
+	
+	
+	
 	window.id_iter = 0;
 	window.obj_iter = 0;
 	

@@ -48,7 +48,7 @@
 			"view":"TextBlock",
 			"object":{
 				"header":"Правила допуска к экзамену",
-				"text":"Для допуска к экзамену необходимо выполнить цикл лабораторных работ."
+				"text":"По дисциплине предусмотрен экзамен в устной форме. Для допуска к экзамену необходимо выполнить цикл лабораторных работ."
 				}
 			},{
 			"view":"TextBlock",
@@ -98,6 +98,18 @@
 				"header":"Порядок ликвидации задолженностей",
 				"text":"Ликвидация задолженностей в дни, установленные приказом ректора."
 				}
+			},{
+			"view":"ListBlock",
+			"header":"Дополнительные материалы",
+			"object":[{
+				"view":"LightSource",
+				"object":{
+					"name":"Беспроводные локальные сети стандарта 802.11",
+					"url":{
+			        	"doc":"/downloads/doc/edu/wireless/Беспроводные локальные сети стандарта 802.11.doc"
+						}
+					}
+				}]
 			}]
 	},
 	"literature":{
@@ -164,11 +176,6 @@
 				"view":"LightSource",
 				"object":{
 					"name":"<a target=\"blank\" href=\" http://www.etsi.org\"> www.etsi.org (European Telecommunications Standards Institute - ETSI)"
-					}
-				},{
-				"view":"LightSource",
-				"object":{
-					"name":"<a target=\"blank\" href=\" http://www.gsmworld.com\"> www.gsmworld.com (Технологии GSM)"
 					}
 				},{
 				"view":"LightSource",

@@ -10,6 +10,8 @@ window.TableBlockModelView = ModelView.extend({
   		}else(this.$("#source").hide());
   		if(this.model.get("style") != undefined) this.$(".table-wrap").addClass(this.model.get("style"));
   		this.$(".table-wrap").html(this.model.get("html"));
+  		if(this.model.get("toptxt")) this.$("p.text").text(this.model.get("toptxt"));
   		
   }
 });
+

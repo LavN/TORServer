@@ -121,6 +121,22 @@
 			"object":[{
 				"view":"LightSource",
 				"object":{
+					"name":"Лабораторный практикум ТЭД",
+					"url":{
+			        	"doc":"/downloads/doc/edu/ted/лабТэд I 2011.doc"
+						}
+					}
+				},{
+				"view":"LightSource",
+				"object":{
+					"name":"Лабораторный практикум ТЭД (II часть)",
+					"url":{
+			        	"doc":"/downloads/doc/edu/ted/лабТэд II 2014.doc"
+						}
+					}
+				},{
+				"view":"LightSource",
+				"object":{
 					"name":"Учебное пособие: В.Н. Малышев - Электромагнитные поля и волны",
 					"url":{
 			        	"pdf":"/downloads/doc/edu/ted/EMFW.pdf"
