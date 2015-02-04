@@ -25,22 +25,43 @@
 			"view":"TableBlock",
 			"object":{
 				"alias":"rasp",
-				"flag": true,
+				"flag": false,
 				"style":"time-rasp",
-				"header":"Осенний семестр",
+				"header":"Весенний семестр",
 				"html":"",
-				"src":"/downloads/doc/timetable/rasp.doc",
+				"src":"/downloads/doc/timetable/spring.doc",
 				"hide":"true"
 				}
 			},{
 			"view":"TableBlock",
 			"object":{
-				"alias":"test",
+				"alias":"rasp",
 				"flag": false,
-				"style":"time-test",
-				"header":"Зачетная неделя",
+				"style":"time-rasp",
+				"header":"Осенний семестр",
 				"html":"",
-				"src":"/downloads/doc/timetable/test.doc"
+				"src":"/downloads/doc/timetable/athumn.doc",
+				"hide":"true"
+				}
+			},{
+			"view":"TableBlock",
+			"object":{
+				"alias":"dops",
+				"flag": false,
+				"style":"time-dps",
+				"header":"Дополнительная сессия",
+				"html":"",
+				"src":"/downloads/doc/timetable/dps.doc"
+				}
+			},{
+			"view":"TableBlock",
+			"object":{
+				"alias":"up",
+				"flag": false,
+				"style":"time-up",
+				"header":"Дни качества",
+				"html":"",
+				"src":"/downloads/doc/timetable/up.doc"
 				}
 			},{
 			"view":"TableBlock",
@@ -55,12 +76,12 @@
 			},{
 			"view":"TableBlock",
 			"object":{
-				"alias":"dops",
+				"alias":"zn",
 				"flag": false,
-				"style":"time-dops",
-				"header":"Дополнительная сессия",
+				"style":"time-zn",
+				"header":"Зачетная неделя",
 				"html":"",
-				"src":"/downloads/doc/timetable/dops.doc"
+				"src":"/downloads/doc/timetable/zn.doc"
 				}
 			}]
 	}

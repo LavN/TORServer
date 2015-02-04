@@ -1,0 +1,21 @@
+{
+"abb":"",
+"name":"",
+"alias":"",
+"url":"",
+"sgroup":"",
+"course":"",
+"type":"",
+"view_class":"light",
+"categories":{
+	"":{
+		"alias":"",
+		"name":"",
+		"url":"/",
+		"block":[{
+			"view":"",
+			"object":{}
+			}]
+	}
+}
+}

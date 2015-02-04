@@ -46,6 +46,12 @@ window.PageSgroupModelView = ModelView.extend({
 			var v = new Option_refActionView({name:d.get("name"),url:d.get("url")});
 			_.$('#olymp').append('<a class="olymp_sgroupref" data-route='+'"'+d.get("url")+'">'+d.get("name")+'</a>');
   		}
+  		var d = subject_collection.where({"sgroup":al, "type":"nirs"});
+  		var i=0;
+  		for(i=0;i<d.length;i++){
+  			var v = new Option_refActionView({name:d[i].get("name"),url:"/edu/"+d[i].get("sgroup")+d[i].get("url")});
+  			_.$('#nirs').append(v.$el);
+  		}
   }
     
 });
