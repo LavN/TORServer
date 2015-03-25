@@ -92,6 +92,14 @@
 			        	"doc":"/downloads/doc/edu/ant/Лабораторный практикум АиРРВ.doc"
 						}
 					}
+				},{
+				"view":"LightSource",
+				"object":{
+					"name":"ФАР С ДИСКРЕТНЫМ ФАЗИРОВАНИЕМ",
+					"url":{
+			        	"doc":"/downloads/doc/edu/ant/Лаб  ФАР.doc"
+						}
+					}
 				}]
 			}]
 	},
