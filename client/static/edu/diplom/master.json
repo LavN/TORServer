@@ -1,102 +1,114 @@
 {
-"name":"Магистерская диссертация",
-"alias":"diplom",
-"url":"/diplom",
-"sgroup":"master",
-"type":"diplom",
-"view_class":"light",
-"categories":{
-	"info":{
-		"alias":"",
-		"name":"",
-		"url":"/info",
-		"block":[{
-			"view":"TextBlock",
-			"object":{
-				"header":"Основные даты - весна 2015",
-				"text":"Практика: 02.02 - 15.03. </br>Срок выполнения НИР: 16.03 - 31.05. </br>Утверждение тем работ: апрельское заседание кафедры. </br>Госэкзамен: последняя неделя мая. </br>Нормоконтроль: за 4-5 дней до дня защиты. </br>Допуск к защите: за 1-2 дня до дня защиты. </br>Защита ВКР: 3 – 14 июня."
+	"name": "Магистерская диссертация",
+	"alias": "diplom",
+	"url": "/diplom",
+	"sgroup": "master",
+	"type": "diplom",
+	"view_class": "light",
+	"categories": {
+		"info": {
+			"alias": "",
+			"name": "",
+			"url": "/info",
+			"block": [
+				{
+					"view": "TextBlock",
+					"object": {
+						"header": "Основные даты - весна 2015",
+						"text": "Практика: 02.02 - 15.03. </br>Срок выполнения НИР: 16.03 - 31.05. </br>Утверждение тем работ: апрельское заседание кафедры. </br>Госэкзамен: последняя неделя мая. </br>Нормоконтроль: за 4-5 дней до дня защиты. </br>Допуск к защите: за 1-2 дня до дня защиты. </br>Защита ВКР: 3 – 14 июня."
+					}
+				}, {
+					"view": "ListBlock",
+					"header": "Основные материалы",
+					"object": [
+						{
+							"view": "LightSource",
+							"object": {
+								"name": "Титульный лист",
+								"url": {
+									"doc": "/downloads/doc/edu/diplom/4_Титульный лист_магистры_2015.doc"
+								}
+							}
+						}, {
+							"view": "LightSource",
+							"object": {
+								"name": "Задание на ВКР",
+								"url": {
+									"doc": "/downloads/doc/edu/diplom/5_Бланк задания_магистры_2015.doc"
+								}
+							}
+						}, {
+							"view": "LightSource",
+							"object": {
+								"name": "Календарный план",
+								"url": {
+									"doc": "/downloads/doc/edu/diplom/1_Календарный план_2015.doc"
+								}
+							}
+						}, {
+							"view": "LightSource",
+							"object": {
+								"name": "Требования по нормоконтролю (оформление).",
+								"url": {
+									"doc": "/downloads/doc/edu/diplom/нормоконтроль.doc"
+								}
+							}
+						}, {
+							"view": "LightSource",
+							"object": {
+								"name": "Методические указания по выполнению, оформлению и подготовке к защите ВКР.",
+								"url": {
+									"doc": "/downloads/doc/edu/diplom/МУ_ ВКР_итог_24.03.14.doc"
+								}
+							}
+						}, {
+							"view": "LightSource",
+							"object": {
+								"name": "Требования к магистерской диссертации.",
+								"url": {
+									"doc": "/downloads/doc/edu/diplom/Требования к магистерской диссертации.doc"
+								}
+							}
+						}
+					]
+				}, {
+					"view": "TextBlock",
+					"object": {
+						"header": "Ссылка на методические указания по дополнительным разделам",
+						"text": "<a target=\"blank\" href=\"http://www.eltech.ru/ru/universitet/svedeniya-ob-obrazovatelnoy-organizacii/obrazovanie/normativnye-dokumenty3/dlya-podgotovki-vkr\"> http://www.eltech.ru/..."
+					}
+				}, {
+					"view": "ListBlock",
+					"header": "Дополнительные материалы",
+					"object": [
+						{
+							"view": "LightSource",
+							"object": {
+								"name": "ГОСТ 7.32 Отчет о научно-исследовательской работе.",
+								"url": {
+									"pdf": "/downloads/doc/edu/diplom/гост 7.32.pdf"
+								}
+							}
+						}, {
+							"view": "LightSource",
+							"object": {
+								"name": "ФРТ: Рекомендации по содержанию ВКР",
+								"url": {
+									"doc": "/downloads/doc/edu/diplom/Методические рекомендации ФРТ 2003.doc"
+								}
+							}
+						}, {
+							"view": "LightSource",
+							"object": {
+								"name": "Каф.ТОР: Рекомендации по оформлению ВКР (согласно ГОСТу)",
+								"url": {
+									"doc": "/downloads/doc/edu/diplom/Оформление пояснительной записки.doc"
+								}
+							}
+						}
+					]
 				}
-			},{
-			"view":"ListBlock",
-			"header":"Основные материалы",
-			"object":[{
-				"view":"LightSource",
-				"object":{
-					"name":"Титульный лист",
-					"url":{
-			        	"doc":"/downloads/doc/edu/diplom/4_Титульный лист_магистры_2015.doc"
-						}
-					}
-				},{
-				"view":"LightSource",
-				"object":{
-					"name":"Задание на ВКР",
-					"url":{
-			        	"doc":"/downloads/doc/edu/diplom/5_Бланк задания_магистры_2015.doc"
-						}
-					}
-				},{
-				"view":"LightSource",
-				"object":{
-					"name":"Календарный план",
-					"url":{
-			        	"doc":"/downloads/doc/edu/diplom/1_Календарный план_2015.doc"
-						}
-					}
-				},{
-				"view":"LightSource",
-				"object":{
-					"name":"Требования по нормоконтролю (оформление).",
-					"url":{
-			        	"doc":"/downloads/doc/edu/diplom/нормоконтроль.doc"
-						}
-					}
-				},{
-				"view":"LightSource",
-				"object":{
-					"name":"Методические указания по выполнению, оформлению и подготовке к защите ВКР.",
-					"url":{
-			        	"doc":"/downloads/doc/edu/diplom/МУ_ ВКР_итог_24.03.14.doc"
-						}
-					}
-				},{
-				"view":"LightSource",
-				"object":{
-					"name":"Требования к магистерской диссертации.",
-					"url":{
-			        	"doc":"/downloads/doc/edu/diplom/Требования к магистерской диссертации.doc"
-						}
-					}
-				}]
-			},{
-			"view":"ListBlock",
-			"header":"Дополнительные материалы",
-			"object":[{
-				"view":"LightSource",
-				"object":{
-					"name":"ГОСТ 7.32 Отчет о научно-исследовательской работе.",
-					"url":{
-			        	"pdf":"/downloads/doc/edu/diplom/гост 7.32.pdf"
-						}
-					}
-				},{
-				"view":"LightSource",
-				"object":{
-					"name":"ФРТ: Рекомендации по содержанию ВКР",
-					"url":{
-			        	"doc":"/downloads/doc/edu/diplom/Методические рекомендации ФРТ 2003.doc"
-						}
-					}
-				},{
-				"view":"LightSource",
-				"object":{
-					"name":"Каф.ТОР: Рекомендации по оформлению ВКР (согласно ГОСТу)",
-					"url":{
-			        	"doc":"/downloads/doc/edu/diplom/Оформление пояснительной записки.doc"
-						}
-					}
-				}]
-			}]
+			]
+		}
 	}
-}
 }
