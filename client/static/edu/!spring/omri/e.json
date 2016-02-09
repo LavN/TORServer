@@ -1,0 +1,15 @@
+{
+"abb":"ОМРИ",
+"name":"Основы метрологии и радиоизмерений",
+"alias":"omri",
+"url":"/omri",
+"sgroup":"engineer",
+"course":"2",
+"studyp":"",
+"semestr":"4",
+"view_class":"light",
+"reference":{
+		"sgroup":"bachelor",
+		"alias":"omri"
+	}
+}

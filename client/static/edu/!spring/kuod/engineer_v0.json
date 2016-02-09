@@ -1,0 +1,14 @@
+{
+	"abb":"КУОД",
+	"name":"Квантовые устройства оптического диапазона",
+	"alias":"kuod",
+	"url":"/kuod",
+	"sgroup":"engineer",
+	"studyp":"812",
+	"course":"5",
+	"semestr":"10",
+	"reference":{
+		"sgroup":"bachelor",
+		"alias":"kuod"
+	}
+}

@@ -1,0 +1,25 @@
+{
+"abb":"ИСВЧ",
+"name":"Измерения на СВЧ",
+"alias":"isv4",
+"url":"/isv4",
+"sgroup":"master",
+"course":"1",
+"studyp":"",
+"semestr":"2",
+"view_class":"light",
+"categories":{
+	"info":{
+		"alias":"info",
+		"name":"Информация",
+		"url":"/info",
+		"block":[{
+			"view":"TextBlock",
+			"object":{
+				"header":"Ссылка на официальный web-ресурс дисциплины",
+				"text":"<a href=\"http://kepstr.eltech.ru/tor/mt/\">http://www.kepstr.eltech.ru/tor/mt/"
+				}
+			}]
+	}
+}
+}

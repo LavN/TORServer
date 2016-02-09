@@ -48,6 +48,12 @@
 		"url":"/gallery",
 		"block":[{
 			"view":"GalleryBlock",
+			"header":"Олимпиада 2015",
+			"alias":"album2015",
+			"url":"/olymp/gallery/album2015",
+			"object":[]
+			},{
+			"view":"GalleryBlock",
 			"header":"Олимпиада 2014",
 			"alias":"album2014",
 			"url":"/olymp/gallery/album2014",

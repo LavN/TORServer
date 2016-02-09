@@ -1,12 +1,12 @@
 {
 "abb":"РТЦС",
 "name":"Радиотехнические цепи и сигналы (для студентов ФЭЛ)",
-"alias":"rtcs",
-"url":"/rtcs",
-"sgroup":"master",
-"studyp":"114",
-"course":"1",
-"semestr":"1",
+"alias":"rtcs_fel",
+"url":"/rtcs_fel",
+"sgroup":"bachelor",
+"studyp":"",
+"course":"4",
+"semestr":"7",
 "view_class":"full",
 "categories":{
 	"info":{
@@ -17,7 +17,7 @@
 		"view":"TextBlock",
 		"object":{
 			"header":"",
-			"text":"Дисциплина предназначена для подготовки магистров  по направлению </br>210100.68  - «Электроника и наноэлектроника»."
+			"text":"Дисциплина предназначена для подготовки бакалавров по направлению «Электроника и наноэлектроника»."
 			}
 		},{
 		"view":"TextBlock",

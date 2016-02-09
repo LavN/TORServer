@@ -1,0 +1,15 @@
+{
+"abb":"ИСВЧ",
+"name":"Измерения на СВЧ",
+"alias":"isv4",
+"url":"/isv4",
+"sgroup":"engineer",
+"course":"5",
+"studyp":"812",
+"semestr":"10",
+"view_class":"light",
+"reference":{
+	"alias":"isv4",
+	"sgroup":"master"
+}
+}

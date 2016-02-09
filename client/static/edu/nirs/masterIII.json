@@ -1,0 +1,60 @@
+{
+"name":"НИРС (III семестр)",
+"alias":"nirsIII",
+"url":"/nirsIII",
+"sgroup":"master",
+"type":"nirs",
+"view_class":"light",
+"categories":{
+	"info":{
+		"alias":"",
+		"name":"",
+		"url":"/info",
+		"block":[{
+			"view":"TextBlock",
+			"object":{
+				"header":"Основные даты",
+				"text":"Конец осеннего семестра: 30 декабря </br> Зачетная неделя: 24 - 30 декабря </br> Сессия: 3 - 20 января </br> Каникулы: 21 - 31 января </br> Срок выполнения НИРС: 1 сентября - 23 декабря."
+				}
+			},{
+			"view":"TextBlock",
+			"object":{
+				"header":"Отчетность по НИРС",
+				"text":"До 24 декабря необходимо сдать куратору соответствующие страницы индивидуального плана (2 листа)."
+				}
+			},{
+			"view":"ListBlock",
+			"header":"",
+			"object":[{
+				"view":"LightSource",
+				"object":{
+					"name":"Листы индивидуального плана по НИРС",
+					"url":{
+			        	"doc":"/downloads/doc/edu/nirs/нирс(семестр3).docx"
+						}
+					}
+				}]
+			},{
+			"view":"ListBlock",
+			"header":"Дополнительные материалы",
+			"object":[{
+				"view":"LightSource",
+				"object":{
+					"name":"Рабочая программа НИРС",
+					"url":{
+			        	"doc":"/downloads/doc/edu/nirs/НИРС_УП513_ТОР.doc"
+						}
+					}
+				},{
+				"view":"LightSource",
+				"object":{
+					"name":"Индивидуальный план магистра (целиком)",
+					"url":{
+			        	"doc":"/downloads/doc/edu/nirs/ИндивидуальныйПлан.docx"
+						}
+					}
+				}]
+			}]
+		}
+	}
+}

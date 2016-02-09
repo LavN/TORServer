@@ -1,0 +1,23 @@
+{
+"abb":"",
+"name":"",
+"alias":"",
+"url":"/",
+"sgroup":"",
+"course":"",
+"studyp":"",
+"semestr":"",
+"view_class":"light",
+"categories":{
+	"info":{
+		"alias":"info",
+		"name":"Информация",
+		"url":"/info",
+		"block":[{
+			"view":"ListBlock",
+			"header":"Информация по данной дисциплине находится в разработке и будет опубликована в начале семестра.",
+			"object":[]
+			}]
+	}
+}
+}

@@ -1,0 +1,23 @@
+{
+"abb":"АСВЧ",
+"name":"Антенны СВЧ",
+"alias":"asv4",
+"url":"/asv4",
+"sgroup":"bachelor",
+"course":"4",
+"studyp":"",
+"semestr":"8",
+"view_class":"light",
+"categories":{
+	"info":{
+		"alias":"info",
+		"name":"Информация",
+		"url":"/info",
+		"block":[{
+			"view":"ListBlock",
+			"header":"Информация по данной дисциплине находится в разработке и будет опубликована в начале семестра.",
+			"object":[]
+			}]
+	}
+}
+}
